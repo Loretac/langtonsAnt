@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8314290F20621B4A0084FBD1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8314290E20621B4A0084FBD1 /* main.cpp */; };
+		8314291A20621B5C0084FBD1 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8314291720621B5B0084FBD1 /* Game.cpp */; };
+		8314291B20621B5C0084FBD1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8314291820621B5B0084FBD1 /* main.cpp */; };
+		8314291C20621B5C0084FBD1 /* Ant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8314291920621B5C0084FBD1 /* Ant.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		8314290B20621B4A0084FBD1 /* langtonsAnt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = langtonsAnt; sourceTree = BUILT_PRODUCTS_DIR; };
-		8314290E20621B4A0084FBD1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8314291520621B5B0084FBD1 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		8314291620621B5B0084FBD1 /* Ant.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ant.hpp; sourceTree = "<group>"; };
+		8314291720621B5B0084FBD1 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		8314291820621B5B0084FBD1 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8314291920621B5C0084FBD1 /* Ant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ant.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		8314290D20621B4A0084FBD1 /* langtonsAnt */ = {
 			isa = PBXGroup;
 			children = (
-				8314290E20621B4A0084FBD1 /* main.cpp */,
+				8314291920621B5C0084FBD1 /* Ant.cpp */,
+				8314291620621B5B0084FBD1 /* Ant.hpp */,
+				8314291720621B5B0084FBD1 /* Game.cpp */,
+				8314291520621B5B0084FBD1 /* Game.hpp */,
+				8314291820621B5B0084FBD1 /* main.cpp */,
 			);
 			path = langtonsAnt;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8314290F20621B4A0084FBD1 /* main.cpp in Sources */,
+				8314291C20621B5C0084FBD1 /* Ant.cpp in Sources */,
+				8314291B20621B5C0084FBD1 /* main.cpp in Sources */,
+				8314291A20621B5C0084FBD1 /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
